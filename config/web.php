@@ -43,14 +43,12 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
+            'enablePrettyUrl' => true, // 启用美化URL
+            'showScriptName' => false, // 在Url::to()构造的URL中不显示脚本名称
             'rules' => [
             ],
         ],
-        */
     ],
     'params' => $params,
 ];
